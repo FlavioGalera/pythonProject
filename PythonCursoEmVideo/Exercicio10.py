@@ -1,0 +1,6 @@
+real = float(input('Quanto dineheiro você tem na carteira? R$: '))
+dollar = float(input('Cotação do Dollar U$$: '))
+euro = float(input('Cotação do Euro €: '))
+compra_do = (real / dollar)
+compra_euro = (real / euro)
+print(f'Com R$ {real:.2f} reais, você pode comprar {compra_do :.2f} dolares\nCom R$ {real:.2f} reais, você pode comprar {compra_euro:.2f} euros')
